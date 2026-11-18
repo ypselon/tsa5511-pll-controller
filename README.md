@@ -106,8 +106,6 @@ The RF power amplifier is disabled when entering the menu. **Xtal** must match t
 
 Frequency is saved separately for each crystal selection. When changing the crystal setting, the firmware restores the frequency previously saved for that selection and checks it against the selected band.
 
-The 6.4 MHz option has been tried on the author's hardware. It exceeds the Philips specification of 3.2–4.48 MHz for the TSA5511 crystal oscillator, so operation depends on the hardware and component used. [TSA5511 datasheet](https://dtsheet.com/doc/203359/philips-tsa5511)
-
 ### TX Prot operation
 
 #### On — periodic monitoring
@@ -305,8 +303,6 @@ O andar final é desabilitado à entrada no menu. A escolha em **Xtal** deve cor
 | 6,4 MHz | 100 kHz | 100,00 → 100,10 → 100,20 MHz |
 
 A frequência fica guardada separadamente para cada opção de cristal. Ao mudar de cristal, o firmware recupera a frequência anteriormente guardada para essa opção e verifica se está dentro da faixa selecionada.
-
-A opção de 6,4 MHz foi experimentada na montagem do autor. Essa frequência excede a gama de cristal de 3,2–4,48 MHz especificada pela Philips para o TSA5511, pelo que o funcionamento depende da montagem e do componente utilizado. [Datasheet TSA5511](https://dtsheet.com/doc/203359/philips-tsa5511)
 
 ### Funcionamento de TX Prot
 
